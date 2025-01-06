@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Total Hours</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <h2>Upload Excel Files to Calculate Total Hours Worked</h2>
+    <form id="fileForm">
+        <input type="file" id="fileInput" multiple accept=".xlsx">
+        <button type="button" id="calculateButton">Calculate Hours</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="count.js"></script>
+</body>
+</html>
