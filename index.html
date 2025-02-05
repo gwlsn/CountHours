@@ -3,16 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate Total Hours</title>
+    <title>Calculate Backpay</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
-    <h2>Select Excel Files to Calculate Total Hours Worked</h2>
+    <center>
+    <h1><u>Backpay Estimator</u></h1>
+    <hr>
+    <br>
+    <h2 style="display:inline">Step 1:</h2> Make sure you have all your invoices downloaded to your computer and organized into the time periods below.
+    <br><br>
+    <h2 style="display:inline">Step 2:</h2> Browse and select your invoices for each of the time periods:
+    <br><br>
     <form id="fileForm">
-        <input type="file" id="fileInput" multiple accept=".xlsx">
-        <button type="button" id="calculateButton">Calculate Hours</button>
+        <label for="fileInput1">Apr 1, 2021 - Mar 31, 2022: </label><br>
+        <input type="file" id="fileInput1" multiple accept=".xlsx"><br><br>
+
+        <label for="fileInput1">Apr 1, 2022 - Mar 31, 2023: </label><br>
+        <input type="file" id="fileInput2" multiple accept=".xlsx"><br><br>
+
+        <label for="fileInput1">Apr 1, 2023 - Mar 31, 2024: </label><br>
+        <input type="file" id="fileInput3" multiple accept=".xlsx"><br><br>
+
+        <label for="fileInput1">Apr 1, 2024 - Mar 31, 2025: </label><br>
+        <input type="file" id="fileInput4" multiple accept=".xlsx"><br><br>
+        <br>
+        <h2 style="display:inline">Step 3:</h2> Click "Calculate Backpay" below.
+        <br><br>
+        <button type="button" id="calculateButton">Calculate Backpay</button>
     </form>
     <p id="result"></p>
+    </center>
 
     <script src="count.js"></script>
 </body>
