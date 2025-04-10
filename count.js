@@ -3,7 +3,7 @@ document.getElementById("calculateButton").addEventListener("click", function ()
         { element: document.getElementById("fileInput1"), total: 0, mutation: (sum) => sum * 0.1095, filesProcessed: 0 },
         { element: document.getElementById("fileInput2"), total: 0, mutation: (sum) => sum * 0.2138, filesProcessed: 0 },
         { element: document.getElementById("fileInput3"), total: 0, mutation: (sum) => sum * 0.2737, filesProcessed: 0 },
-        { element: document.getElementById("fileInput4"), total: 0, mutation: (sum) => sum * 0.2245, filesProcessed: 0 }
+        { element: document.getElementById("fileInput4"), total: 0, mutation: (sum) => sum * 0.2366, filesProcessed: 0 }
     ];
     const result = document.getElementById("result");
 
